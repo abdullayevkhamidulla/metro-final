@@ -48,7 +48,7 @@ const Routes: React.FC = () => {
     <>
       {!hideNavbarAndFooter && <Navbar />}
       <Switch>
-        <Route index path="/" element={<Navigate to="/home" replace />} />
+        <Route index path="/" element={<Navigate to="/Auth/Login" replace />} />
         <Route path="/home" element={<Home />} />
         <Route path="/Metro-Xaritasi" element={<Map />} />
         <Route path="/catalog" element={<Catalog />} />
