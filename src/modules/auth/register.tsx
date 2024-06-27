@@ -108,7 +108,7 @@ const register: React.FC = () => {
             </div>
           </div>
           <div>
-            <label className="mb-2 block text-sm">Ochistva</label>
+            <label className="mb-2 block text-sm">Sharifi</label>
             <div className="relative flex items-center">
               <input
                 name="lastName"
@@ -117,7 +117,7 @@ const register: React.FC = () => {
                 type="text"
                 required
                 className="w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-black outline-blue-500"
-                placeholder="Ochistva kiriting"
+                placeholder="Sharifingizni kiriting"
               />
             </div>
           </div>
